@@ -1,8 +1,20 @@
 # android-url-preview
-A Android library to preview URL's.
+A Android library to preview URL's. 
 
 ![preview](https://raw.githubusercontent.com/costular/android-url-preview/master/preview.png "Preview")
 
+# Features
+- Get title, description and featured image of website
+- Get title, description and featured image of Facebook page
+- Get title, description and featured image of Twitter
+
+## Coming soon
+- Spotify
+- Google+
+- Youtube
+- Instagram
+- Reddit
+- Pinterest
 
 # Usage
 The next example shows how to use the library
