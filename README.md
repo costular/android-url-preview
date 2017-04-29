@@ -8,7 +8,7 @@ A Android library to preview URL's.
 - Get title, description and featured image of Facebook page
 - Get title, description and featured image of Twitter
 
-## Coming soon
+### Coming soon
 - Spotify
 - Google+
 - Youtube
