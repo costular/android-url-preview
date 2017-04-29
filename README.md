@@ -1,5 +1,5 @@
 # android-url-preview
-A Android library to preview URL's. 
+Android library to preview URL's. 
 
 ![preview](https://raw.githubusercontent.com/costular/android-url-preview/master/preview.png "Preview")
 
