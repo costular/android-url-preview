@@ -11,16 +11,19 @@ The next example shows how to use the library
 LinkPreviewTask.generate(new LinkListener() {
   @Override
   public void onWebLoading() {
+    // It is executed when is fetching the data
     loadingView.setVisibility(View.VISIBLE);
   }
   
   @Override
   public void onWebFinishedLoading() {
+    // It is executed when fetching has been finished
     loadingView.setVisibility(View.GONE);
   }
   
   @Override
   public void onWebLoaded(Web web) {
+    // It returns a Web object which contains the metadata
     Picasso.with(getApplicationContext())
     .load(web.getImageURL())
     .fit()
@@ -33,7 +36,7 @@ LinkPreviewTask.generate(new LinkListener() {
   
   @Override
   public void onWebError(String message) {
-    
+    // It is executed when something was wrong
   }
 }, "http://costular.com").execute();
 ```
