@@ -9,6 +9,10 @@ import java.io.IOException;
 
 public class LinkPreviewTask extends AsyncTask<Void, Void, Web> {
 
+    public static LinkPreviewTask generate(LinkListener linkListener, String url) {
+        return new LinkPreviewTask(linkListener, url);
+    }
+
     private LinkListener linkListener;
     private String url;
 
